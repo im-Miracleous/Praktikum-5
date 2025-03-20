@@ -1,0 +1,110 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #87CEEB;
+}
+
+p {
+    font-size: 15px;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #FF4500;
+    color: white;
+    font-size: 15px;
+    border-bottom: 5px solid #B22222;
+}
+
+h1 {
+    padding: 10px;
+}
+
+header p {
+    padding: 10px;
+}
+
+nav {
+    display: block;
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    padding-right: 20px;
+    text-align: center;
+    background-color: #FFD700;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.5);
+    border-left: 3px solid #B8860B;
+    z-index: -1;
+}
+
+nav p {
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1px solid #B8860B;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: #FF4500;
+    color: white;
+    padding: 5px;
+}
+
+.box {
+    padding: 40px;
+    padding-right: 90px;
+    margin: 20px;
+    width: 70%;
+    background-color: #F5DEB3;
+    border: 4px solid #D2691E;
+}
+
+h2 {
+    padding: 10px 0;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+.powerlist {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background-color: #228B22;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    margin: 20px;
+}
